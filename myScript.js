@@ -20,9 +20,44 @@ console.log(interestRate);
 // ie "const interestRate == 0.3"
 // constants can NOT be reassigned
 
-let name = "Travis"; //string literal
-let age = 30; // number literal
-let isApproved = false; //boolean literal
-let firstName; //creates an undefined variable
-let selectedColor = null;
+
+// "primitive type variables"
+// let name = "Travis"; //string literal
+//let age = 30; // number literal
+//let isApproved = false; //boolean literal
+//let firstName; //creates an undefined variable
+//let selectedColor = null; 
+
+// "reference type variables"
+// object, array, function
+
+//OBJECTS:
+
+let person = {
+    name: "TR",
+    age: 33
+}
+
+console.log(person);
+
+//two methods to change value of object:
+
+    // 1. "Dot Notation" method (use as personal default)
+person.name = "Hex";
+console.log(person.name)
+
+    // 2. "Bracket Notation" method
+person["name"] = "tr_h3x";
+console.log(person.name);
+
+  // bracket application - ex. multiple name option:
+let selection = "name";
+person[selection] = "TRWH";
+console.log(person.name);
+
+
+//ARRAYS
+
+
+
 
